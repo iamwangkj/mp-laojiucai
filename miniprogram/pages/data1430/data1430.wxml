@@ -1,0 +1,14 @@
+<!--pages/data1430/data1430.wxml-->
+<view class="">
+  <mp-cells title="推荐个股（每个开盘日14点40分更新）">
+    <picker mode="date" value="{{date}}" start="2021-07-26" end="{{today}}" bindchange="dateChange">
+      <mp-cell value="日期" footer="{{date}}" link></mp-cell>
+    </picker>
+    <view wx:if="{{showList.length>0}}">
+      <block wx:for="{{showList}}" wx:key="unique">
+        <mp-cell value="{{item.name}}" footer="{{item.code}}" link data-code="{{item.code}}" bindtap="toStockDetail"></mp-cell>
+      </block>
+    </view>
+    <view class="no-data" wx:else>暂无推荐数据</view>
+  </mp-cells>
+</view>

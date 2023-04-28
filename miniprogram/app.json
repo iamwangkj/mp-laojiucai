@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/data1430/data1430",
+    "pages/index/index",
+    "pages/stock-detail/stock-detail",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "老韭菜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#07c160",
+    "list": [
+      {
+        "pagePath": "pages/data1430/data1430",
+        "text": "2点半",
+        "iconPath": "./imgs/icon-time-circle.png",
+        "selectedIconPath": "./imgs/icon-time-circle-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./imgs/icon-robot.png",
+        "selectedIconPath": "./imgs/icon-robot-active.png"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

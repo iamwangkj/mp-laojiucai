@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "openapi": [
+    ]
+  },
+  "triggers": [
+    {
+      "name": "get today recommend at 14:30",
+      "type": "timer",
+      "config": "0 40 14 * * * *"
+    }
+  ]
+}

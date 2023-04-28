@@ -1,0 +1,20 @@
+{
+  "name": "mp-laojiucai",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://git.weixin.qq.com/wangkj/mp-laojiucai",
+  "author": "wangkj <ne.wkj@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fasum/stockjs": "^1.0.0",
+    "moment": "^2.29.1",
+    "wx-computed": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}

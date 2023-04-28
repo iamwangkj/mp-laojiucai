@@ -1,0 +1,15 @@
+<!--pages/stock-detail/stock-detail.wxml-->
+<view class="">
+  <mp-cells ext-class="" title="代码：{{code}}">
+    <picker mode="date" value="{{startDate}}" end="{{today}}" bindchange="startDateChange">
+      <mp-cell value="开始日期" footer="{{startDate}}" link></mp-cell>
+    </picker>
+    <mp-cell value="开始价格" footer="{{price1}}"></mp-cell>
+    <picker mode="date" value="{{endDate}}" start="{{startDate}}" end="{{today}}" bindchange="endDateChange">
+      <mp-cell value="结束日期" footer="{{endDate}}" link></mp-cell>
+    </picker>
+    <mp-cell value="结束价格" footer="{{price2}}"></mp-cell>
+  </mp-cells>
+  <mp-cell value="涨跌" footer="{{changePercent}}"></mp-cell>
+
+</view>

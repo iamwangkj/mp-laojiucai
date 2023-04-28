@@ -1,0 +1,4 @@
+/* pages/data1430/data1430.wxss */
+.no-data {
+  text-align: center;
+}
